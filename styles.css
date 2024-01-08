@@ -1,0 +1,10 @@
+body{
+    padding: 140px 140px 50px;
+}
+/*image related*/
+.banner-image{
+width: 100%; 
+height: 100%; 
+background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+ border-radius: 16px
+}
