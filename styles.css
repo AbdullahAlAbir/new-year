@@ -1,10 +1,27 @@
-body{
-    padding: 140px 140px 50px;
+body{ 
+    margin-left: 140px;  align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-/*image related*/
-.banner-image{
-width: 100%; 
-height: 100%; 
-background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
- border-radius: 16px
+/* greet related styles */
+.greet{
+    color: #ffffff;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 0%;
+}
+.greet-again{
+color: #ffffff;
+text-align: center;
+font-size: 92px;
+font-weight: 600;
+margin-top: opx;
+}
+.heading{
+background-image: url(/imgs/Banner\ Image.png);
+background-repeat: no-repeat;
+width: 1320px;
+height: 600px; 
+flex-shrink: 0;  
 }
