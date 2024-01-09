@@ -1,27 +1,29 @@
-body{ 
-    margin-left: 140px;  align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+/* common style */
+body{
+font-family: 'Times New Roman', Times, serif;
+width: 100%;
+margin: 20px;
+padding:0px;
 }
-/* greet related styles */
-.greet{
-    color: #ffffff;
-    text-align: center;
-    font-size: 42px;
+.banner{
+    width: 1320px; height: 600px;
+    background-image: url(/imgs/Banner\ Image.png);
+    background-repeat: no-repeat;
+}
+.first{
+    color: white;
+    font-size: 32px;
+    font-family: Merriweather;
     font-weight: 400;
-    line-height: normal;
-    padding-bottom: 0%;
+    padding: 50px;
+    text-align: center;
 }
-.greet-again{
-color: #ffffff;
-text-align: center;
-font-size: 92px;
-font-weight: 600;
-margin-top: opx;
-}
-.heading{
-background-image: url(/imgs/Banner\ Image.png);
-background-repeat: no-repeat;
-width: 1320px;
-height: 600px; 
-flex-shrink: 0;  
-}
+.second{
+    color: white;
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 95px;
+    word-wrap: break-word; 
+    text-align: center;
+}   
