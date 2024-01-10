@@ -34,7 +34,7 @@ padding:0px;
 /* Section-one related styles */
 .section-one{
    width: 1320px; height: 900px;
-   background-color: beige;
+   /* background-color: beige; */
    border-radius: 16px;
 }
 .discount{
@@ -60,7 +60,7 @@ padding:0px;
 }
 /* section two related styles */
 .section-two{
-    width: 1320px; height: 900px;
+    width: 1320px; height: 700px;
     background-image: url(/imgs/Vectorrr.png);
     background-repeat: no-repeat;
     border-radius: 16px;
@@ -82,6 +82,25 @@ padding:0px;
 .part-two{
     display: inline-block;
     vertical-align: middle;
-    padding-left: 300px;
+    padding-left: 200px;
     padding-top: 50px;
+}
+/* section three related styles */
+.section-three{
+    width: 1320px; height: 400px;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 16px;
+}
+.address{
+    padding-top: 200px;
+}
+.btn{
+    border-radius: 16px;
+    color: white;
+    background-color: red;
+    width: 100px; height: 50px;
+}
+.red{
+    color: red;
 }
